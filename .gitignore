@@ -1,0 +1,37 @@
+# Python bytecode and environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Generated ad-hoc metrics output
+src/results/ap_cws_metrics.txt
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local scratch & evaluation workspaces
+scratchpad/
+scratchdocs/
+overleaf_upload/
+*.zip
